@@ -1,0 +1,28 @@
+@import url("./styles/header.css");
+@import url("./styles/banner.css");
+@import url("./styles/carrossel.css");
+@import url("./styles/topicos.css");
+@import url("./styles/contato.css");
+@import url('./styles/rodape.css');
+
+:root{
+    --cor-fundo-header: #FFFFFF;
+    --cor-de-fundo: #EBECEE;
+    --titulo-hamburguer: #EB9B00;
+    --cor-cartao-letra: #002f52;
+    --cor-borda-rodape: #858585;
+    --cor-letra-rodape: #000;
+    --cor-cinza-claro: #858585;
+    --cor-cinza-escuro: #474646;
+    --cor-bg-rodape: #f9f9f9;
+    --degrade-menu: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: Poppins;
+    --fonte-books: Josefin;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
